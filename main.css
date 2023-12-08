@@ -6,19 +6,21 @@ body{
     align-items: center;
     min-height: 100vh;
     background-color: #ecf0f3;
-}
-
-.container{
+  
+  }
+  
+  .container{
     width: 45%;
     padding: 2%;
     border-radius: 8px;
     box-shadow: 12px 12px 20px #cbced1,
                 -12px -12px 20px #ffffff;
-}
-
-.screen{
+  
+  }
+  
+  .screen{
     width: 97%;
-    height: 70px;
+    height: 70%;
     font-size: 35px;
     outline: none;
     border: none;
@@ -27,18 +29,36 @@ body{
     box-shadow: inset 8px 8px 8px #cbced1, 
                 inset  -8px -8px 8px #ffffff ;
     
-}
-
-.btn{
+    border: 3px solid #198754;
+  
+  }
+  
+  .btn{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-}
-
-
-
-#result {
+  }
+  
+  
+  
+  #result {
     margin-top: 20px;
     font-weight: bold;
+    text-align: center;
+    border: 2px solid  #198754;
+    border-radius: 8px ;
+    margin-bottom: 10px;
+    background-color: #658d7a;
+    color:#ffffff;
   }
+  footer {
+    display: block;
+    justify-content: center; 
+    padding: 3px;
+    border: 3px solid #FFC107;
+    color: #000;
+    border-radius: 8px;
+  }
+  
+  
