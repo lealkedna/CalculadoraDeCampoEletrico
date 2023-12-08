@@ -10,14 +10,13 @@ body{
 
 .container{
     width: 45%;
-    /* height: 45vh; */
-    padding: 10px;
+    padding: 2%;
     border-radius: 8px;
     box-shadow: 12px 12px 20px #cbced1,
                 -12px -12px 20px #ffffff;
 }
 
-.display #screen{
+.screen{
     width: 97%;
     height: 70px;
     font-size: 35px;
@@ -27,24 +26,19 @@ body{
     padding-right: .5rem;
     box-shadow: inset 8px 8px 8px #cbced1, 
                 inset  -8px -8px 8px #ffffff ;
+    
 }
 
-.btns{
-    width: 100%;
-    margin-top: 1.7em;
+.btn{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
 }
 
-.btns .row button{
-    width: 80px;
-    height: 30px;
-    font-size: 16px;
-    border: none;
-    outline:none;
-    margin: 5px;
-    border-radius:4px;
-    box-shadow: 5px 5px 8px #00000020,
-                -5px -5px 8px #ffffff;
-}
+
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
